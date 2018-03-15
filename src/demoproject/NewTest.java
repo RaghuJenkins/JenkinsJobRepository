@@ -22,6 +22,7 @@ public class NewTest {
 		    WebDriver driver=new FirefoxDriver();
 		    driver.get("https://www.gmail.com");
 		    driver.quit();
+		    System.out.println("Jenkins Job");
 		}
 
 	}
