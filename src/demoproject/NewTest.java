@@ -5,6 +5,7 @@ package demoproject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 
 /**
@@ -16,7 +17,8 @@ public class NewTest {
 	/**
 	 * @param none presently
 	 */
-	public static void main(String[] args) {
+	@Test
+	public void testJenkinsJob(){
 		
 			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\"+"geckodriver.exe");
 		    WebDriver driver=new FirefoxDriver();
