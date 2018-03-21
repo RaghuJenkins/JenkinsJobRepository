@@ -23,7 +23,7 @@ public class NewTest {
 			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\"+"geckodriver.exe");
 		    WebDriver driver=new FirefoxDriver();
 		    driver.get("https://www.gmail.com");
-		    driver.quit();
+		    driver.close();
 		    System.out.println("Jenkins Job");
 		}
 
