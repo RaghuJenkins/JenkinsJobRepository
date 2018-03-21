@@ -25,6 +25,7 @@ public class NewTest {
 		    driver.get("https://www.gmail.com");
 		    driver.close();
 		    System.out.println("Jenkins Job");
+		    System.out.println("Jenkins Job");
 		}
 
 	}
